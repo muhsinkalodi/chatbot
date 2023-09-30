@@ -194,7 +194,7 @@ body {
         padding-bottom: 150px;
         margin-right: 20px;
         border-top: 1px solid #ccc;
-        border-radius: 10px 10px 10px 0;
+        border-radius: 10px 10px 10px 10px;
     }
 
     .chatbot .chatbox {
@@ -230,7 +230,7 @@ body {
 .chatbot    {
    
     margin-bottom: 150px;
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */
     
 }
 
