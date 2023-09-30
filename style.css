@@ -188,9 +188,13 @@ body {
     .chatbot {
         right: 0;
         bottom: 0;
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 500px;
         border-radius: 0;
+        padding-bottom: 150px;
+        margin-right: 20px;
+        border-top: 1px solid #ccc;
+        border-radius: 10px 10px 10px 0;
     }
 
     .chatbot .chatbox {
@@ -202,4 +206,34 @@ body {
     .chatbot header span {
         display: block;
     }
+
+    .chatbox .incoming p {
+        color: black;
+        background: #f2f2f2;
+        
+    }
+    .chat-input textarea {
+        height: 55px;
+        width: 100%;
+        border: none;
+        outline: none;
+        max-height: 180px;
+        font-size: 0.95rem;
+        resize: none;
+        padding: 16px 15px 16px 0;
+    }
+
+    
 }
+
+ @media (max-width:490px) {
+.chatbot    {
+   
+    margin-bottom: 150px;
+    border-top: 1px solid #ccc;
+    
+}
+
+} 
+
+
